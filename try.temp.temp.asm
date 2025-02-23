@@ -153,7 +153,7 @@ show1:
     invoke StdOut, addr subjects1_sem
     invoke StdIn, addr choice1_sem, 4 
 
-    mov al, choice1_sem
+    mov al, [choice1_sem]
     cmp al, '1'
     je show1_1
     cmp al, '2'
@@ -183,7 +183,7 @@ show3:
     invoke StdOut, addr subjects1_sem
     invoke StdIn, addr choice3_sem, 4 
 
-    mov al, choice3_sem
+    mov al, [choice3_sem]
     cmp al, '1'
     je show3_1
     cmp al, '2'
@@ -197,7 +197,7 @@ show4:
      invoke StdOut, addr subjects1_sem
     invoke StdIn, addr choice4_sem, 4 
 
-    mov al, choice4_sem
+    mov al, [choice4_sem]
     cmp al, '1'
     je show4_1
     cmp al, '2'
