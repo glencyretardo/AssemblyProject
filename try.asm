@@ -47,7 +47,7 @@ subjects1_2 db 10, 9, "Subjects for 1st Year: 2nd Sem", 10, 9
 subjects1_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
             db "    Educational Assessment of Students with Additional Needs", 10, 9
             db "    Art Appreciation", 10, 9
-            db "    Content and Pedagogy in the Mother-tongue", 10, 9
+            db "    Content and Pedagogy in the Mother-tongue", 10, 9, 0
             
 subjects2_1 db 10, 9, "Subjects for 2nd Year: 1st Sem", 10, 9
             db "    Assessment Learning 1", 10, 9
@@ -74,7 +74,7 @@ subjects2_2 db 10, 9, "Subjects for 2nd Year: 2nd Sem", 10, 9
 subjects2_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
             db "    Development of Individualized Education Plans", 10, 9
             db "    Ethics (Disciplinal)", 10, 9
-            db "    Good Manners and Right Conduct", 10, 9
+            db "    Good Manners and Right Conduct", 10, 9,0
     
 subjects3_1 db 10, 9, "Subjects for 3rd Year: 1st Sem", 10, 9
             db "    Environmental Science", 10, 9
@@ -99,7 +99,7 @@ subjects3_2 db 10, 9, "Subjects for 3rd Year: 2nd Sem", 10, 9
 subjects3_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
             db "    Pagtuturo ng Filipino sa Elementarya - Panitikan ng Pilipinas", 10, 9
             db "    Malayuning Komunikasyon sa Wikang Filipino", 10, 9
-            db "    Reading Visual Arts", 10, 9
+            db "    Reading Visual Arts", 10, 9, 0
     
 subjects4_1 db 10, 9, "Subjects for 4th Year: 1st Sem", 10, 9
             db "    Field Study 1", 10, 9
@@ -167,7 +167,7 @@ show2:
     invoke StdOut, addr subjects1_sem
     invoke StdIn, addr choice2_sem, 4 
 
-    mov al, [choice2_sem]
+    mov al, choice2_sem
     cmp al, '1'
     je show2_1
     cmp al, '2'
