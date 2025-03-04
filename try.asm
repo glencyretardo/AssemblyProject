@@ -24,57 +24,57 @@ continuePrompt db 10, 9, "Do you want to continue? [y/n]: ", 0
 choice db 4 dup(0)
 continueChoice db 4 dup(0)
 
-subjects1_1 db 10, 9, "Subjects for 1st Year: 1st Sem", 10, 9
-            db "    Understanding the Self", 10, 9
-            db "    Mathematics in the Modern World", 10, 9
-            db "    Purposive Communication w/ Interactive Learning", 10, 9
-            db "    The Child and Adolescent Learners and Learning Principles", 10, 9
-            db "    Rizal's Life and Work", 10, 9
-            db "    Foundation of Special and Inclusive Education", 10, 9
-            db "    Movement Competency Training", 10, 9
-            db "    National Service Training Program 1", 10, 9, 0
+subjects1_1 db 10, 9, "Subjects for 1st Year: 1st Sem                                    units", 10, 9
+            db "    Understanding the Self                                        3.0 ", 10, 9
+            db "    Mathematics in the Modern World                               3.0", 10, 9
+            db "    Purposive Communication w/ Interactive Learning               4.0 ", 10, 9
+            db "    The Child and Adolescent Learners and Learning Principles     3.0", 10, 9
+            db "    Rizal's Life and Work                                         3.0", 10, 9
+            db "    Foundation of Special and Inclusive Education                 3.0", 10, 9
+            db "    Movement Competency Training                                  2.0", 10, 9
+            db "    National Service Training Program 1                           3.0", 10, 9, 0
 
-subjects1_2 db 10, 9, "Subjects for 1st Year: 2nd Sem", 10, 9
-            db "    Strategic Lesson Planning and Design", 10, 9
-            db "    Reading Comprehension", 10, 9
-            db "    The Contemporary World", 10, 9
-            db "    Technology for Teaching and Learning 1", 10, 9
-            db "    Facilitating Learner-Centered Teaching", 10, 9
-            db "    Science, Technology, and Society", 10, 9
-            db "    Exercise-based Fitness Activities", 10, 9
-            db "    National Service Training Program 2", 10, 9, 0
+subjects1_2 db 10, 9, "Subjects for 1st Year: 2nd Sem                         units", 10, 9
+            db "    Strategic Lesson Planning and Design                3.0", 10, 9
+            db "    Reading Comprehension                               6.0", 10, 9
+            db "    The Contemporary World                              3.0", 10, 9
+            db "    Technology for Teaching and Learning 1              3.0", 10, 9
+            db "    Facilitating Learner-Centered Teaching              3.0", 10, 9
+            db "    Science, Technology, and Society                    3.0", 10, 9
+            db "    Exercise-based Fitness Activities                   2.0", 10, 9
+            db "    National Service Training Program 2                 3.0", 10, 9, 0
 
-subjects1_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
-            db "    Educational Assessment of Students with Additional Needs", 10, 9
-            db "    Art Appreciation", 10, 9
-            db "    Content and Pedagogy in the Mother-tongue", 10, 9, 0
+subjects1_summer db 10, 9, "Subjects for 1st Year: Summer                                     units", 10, 9
+            db "    Educational Assessment of Students with Additional Needs              3.0", 10, 9
+            db "    Art Appreciation                                                      3.0", 10, 9
+            db "    Content and Pedagogy in the Mother-tongue                             3.0", 10, 9, 0
             
-subjects2_1 db 10, 9, "Subjects for 2nd Year: 1st Sem", 10, 9
-            db "    Assessment Learning 1", 10, 9
-            db "    Pagtuturo ng Filipino sa Elementarya 1", 10, 9
-            db "    Teaching Math in the Primary Grades", 10, 9
-            db "    Teaching Music in the Elementary Grades", 10, 9
-            db "    Teaching English in the Elementary Grades - Language Arts", 10, 9
-            db "    Teaching Science in the Elementary Grades - Biology & Chemistry", 10, 9
-            db "    Adapted Physical Education and Recreation", 10, 9
-            db "    Behavior Management and Modification", 10, 9
-            db "    Dance and Sports 1", 10, 9, 0
+subjects2_1 db 10, 9, "Subjects for 2nd Year: 1st Sem                                            units", 10, 9
+            db "    Assessment Learning 1                                                3.0", 10, 9
+            db "    Pagtuturo ng Filipino sa Elementarya 1                               3.0", 10, 9
+            db "    Teaching Math in the Primary Grades                                  3.0", 10, 9
+            db "    Teaching Music in the Elementary Grades                              3.0", 10, 9
+            db "    Teaching English in the Elementary Grades - Language Arts            3.0", 10, 9
+            db "    Teaching Science in the Elementary Grades - Biology & Chemistry      3.0", 10, 9
+            db "    Adapted Physical Education and Recreation                            3.0", 10, 9
+            db "    Behavior Management and Modification                                 3.0", 10, 9
+            db "    Dance and Sports 1                                                   2.0", 10, 9, 0
 
-subjects2_2 db 10, 9, "Subjects for 2nd Year: 2nd Sem", 10, 9
-            db "    Readings in Philippine History", 10, 9
-            db "    The Teachers and the School Curriculum", 10, 9
-            db "    Assessment of Learning 2", 10, 9
-            db "    Teaching Social Studies in Primary Grades", 10, 9
-            db "    Teaching Literacy in the Elementary Grades", 10, 9
-            db "    Teaching Science in the Elementary Grades - Physics, Earth & Space", 10, 9
-            db "    Instructional Adaptations in Language & Literacy Instruction", 10, 9
-            db "    Instructional Adaptations in Mathematics & Science Instruction", 10, 9
-            db "    Dance and Sports 2", 10, 9, 0
+subjects2_2 db 10, 9, "Subjects for 2nd Year: 2nd Sem                                                units", 10, 9
+            db "    Readings in Philippine History                                             3.0", 10, 9
+            db "    The Teachers and the School Curriculum                                     3.0", 10, 9
+            db "    Assessment of Learning 2                                                   3.0", 10, 9
+            db "    Teaching Social Studies in Primary Grades                                  3.0", 10, 9
+            db "    Teaching Literacy in the Elementary Grades                                 3.0", 10, 9
+            db "    Teaching Science in the Elementary Grades - Physics, Earth & Space         3.0", 10, 9
+            db "    Instructional Adaptations in Language & Literacy Instruction               3.0", 10, 9
+            db "    Instructional Adaptations in Mathematics & Science Instruction             3.0", 10, 9
+            db "    Dance and Sports 2                                                         2.0", 10, 9, 0
 
-subjects2_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
-            db "    Development of Individualized Education Plans", 10, 9
-            db "    Ethics (Disciplinal)", 10, 9
-            db "    Good Manners and Right Conduct", 10, 9,0
+subjects2_summer db 10, 9, "Subjects for 1st Year: Summer                            units", 10, 9
+            db "    Development of Individualized Education Plans             3.0", 10, 9
+            db "    Ethics (Disciplinal)                                      3.0", 10, 9
+            db "    Good Manners and Right Conduct                            3.0", 10, 9,0
     
 subjects3_1 db 10, 9, "Subjects for 3rd Year: 1st Sem", 10, 9
             db "    Environmental Science", 10, 9
