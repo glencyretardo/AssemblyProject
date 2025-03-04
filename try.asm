@@ -71,45 +71,51 @@ subjects2_2 db 10, 9, "Subjects for 2nd Year: 2nd Sem", 10, 9
             db "    Instructional Adaptations in Mathematics & Science Instruction", 10, 9
             db "    Dance and Sports 2", 10, 9, 0
 
-subjects2_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
+subjects2_summer db 10, 9, "Subjects for 2nd Year: Summer", 10, 9
+            db "    Subject code|Subject Title                                                          |Units",10,9
             db "    Development of Individualized Education Plans", 10, 9
             db "    Ethics (Disciplinal)", 10, 9
             db "    Good Manners and Right Conduct", 10, 9,0
     
 subjects3_1 db 10, 9, "Subjects for 3rd Year: 1st Sem", 10, 9
-            db "    Environmental Science", 10, 9
-            db "    Building and Enhancing New Literacies", 10, 9
-            db "    Research in Special Needs and Inclusive Education 1", 10, 9
-            db "    Teaching Social Studies in Intermediate Grades", 10, 9
-            db "    The Entrepreneurial Mind", 10, 9
-            db "    Edukasyong Pantahanan at Pangkabuhayan - Home Economics & Agri", 10, 9
-            db "    Teaching Arts in the Elementary Grades", 10, 9
-            db "    Instructional Adaptations for Teaching Content Areas", 10, 9, 0
+            db "    Subject code|Subject Title                                                          |Units",10,9
+            db "    GE15         Environmental Science                                                   3 units", 10, 9
+            db "    EDUC 108     Building and Enhancing New Literacies                                   3 units", 10, 9
+            db "    SNED 117     Research in Special Needs and Inclusive Education 1                     3 units", 10, 9
+            db "    EDSS 2       Teaching Social Studies in Intermediate Grades                          3 units", 10, 9
+            db "    GE11         The Entrepreneurial Mind                                                3 units", 10, 9
+            db "    EDTLE 1      Edukasyong Pantahanan at Pangkabuhayan - Home Economics & Agriculture   3 units", 10, 9
+            db "    ED ARTS      Teaching Arts in the Elementary Grades                                  3 units", 10, 9
+            db "    SNEED 112    Instructional Adaptations for Teaching Content Areas                    3 units", 10, 9, 0
 
 subjects3_2 db 10, 9, "Subjects for 3rd Year: 2nd Sem", 10, 9
-            db "    The Teaching Profession", 10, 9
-            db "    The Teacher & the Community, Culture, and Org Leadership", 10, 9
-            db "    Research in Special Needs and Inclusive Education 2", 10, 9
-            db "    Teaching Math in the Intermediate Grades", 10, 9
-            db "    Edukasyong Pantahanan at Pangkabuhayan - Entrepreneurship", 10, 9
-            db "    Technology for Teaching and Learning in the Elementary Grades", 10, 9
-            db "    Teaching PE and Health in Elementary Grades", 10, 9
-            db "    Early Childhood Inclusive Education", 10, 9, 0
+            db "    Subject code|Subject Title                                                          |Units",10,9
+            db "    EDUC109      The Teaching Profession                                                 3 units", 10, 9
+            db "    EDUC 110     The Teacher & the Community, Culture, and Org Leadership                3 units", 10, 9
+            db "    SNEED 118    Research in Special Needs and Inclusive Education  2                    3 units", 10, 9
+            db "    EDMT 2       Teaching Math in the Intermediate Grades                                3 units", 10, 9
+            db "    EDTLE 2      Edukasyong Pantahanan at Pangkabuhayan - Entrepreneurship               3 units", 10, 9
+            db "    EDTTL 1/L    Technology for Teaching and Learning in the Elementary Grades           3 units", 10, 9
+            db "    EDPEH        Teaching PE and Health in Elementary Grades                             3 units", 10, 9
+            db "    SNEED 114    Early Childhood Inclusive Education                                     3 units", 10, 9, 0
 
 subjects3_summer db 10, 9, "Subjects for 1st Year: Summer", 10, 9
-            db "    Pagtuturo ng Filipino sa Elementarya - Panitikan ng Pilipinas", 10, 9
-            db "    Malayuning Komunikasyon sa Wikang Filipino", 10, 9
-            db "    Reading Visual Arts", 10, 9, 0
+            db "    Subject code|Subject Title                                                          |Units",10,9
+            db "    EDFL 2       Pagtuturo ng Filipino sa Elementarya - Panitikan ng Pilipinas           3 units", 10, 9
+            db "    FIL 215      Malayuning Komunikasyon sa Wikang Filipino                              3 units", 10, 9
+            db "    GE 20        Reading Visual Arts                                                     3 units", 10, 9, 0
     
 subjects4_1 db 10, 9, "Subjects for 4th Year: 1st Sem", 10, 9
-            db "    Field Study 1", 10, 9
-            db "    Field Study 2", 10, 9
-            db "    General Education", 10, 9
-            db "    Professional Education", 10, 9, 0
+            db "    Subject code|Subject Title                                                          |Units",10,9
+            db "    FS 1         Field Study 1                                                           3 units", 10, 9
+            db "    FS 2         Field Study 2                                                           3 units", 10, 9
+            db "    CA 501       General Education                                                       5 units", 10, 9
+            db "    CA 502       Professional Education                                                  5 units", 10, 9, 0
 
 subjects4_2 db 10, 9, "Subjects for 4th Year: 2nd Sem", 10, 9
-            db "    Teaching Internship", 10, 9
-            db "    Career and Personality Development", 10, 9, 0
+            db "    Subject code|Subject Title                                                          |Units",10,9
+            db "    ED 421       Teaching Internship                                                     6 units", 10, 9
+            db "    CAED 506     Career and Personality Development                                      3 units", 10, 9, 0
 
 subjects1_sem db 10, 9, "1. 1st Sem", 10, 9, "2. 2nd Sem", 10, 9, "3. Summer", 10, 9, " Select which sem", 10, 9, 0
 choice1_sem db 4 dup (0)
